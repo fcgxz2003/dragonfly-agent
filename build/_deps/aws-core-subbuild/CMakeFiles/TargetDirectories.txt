@@ -1,0 +1,3 @@
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/CMakeFiles/aws-core-populate.dir
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/CMakeFiles/edit_cache.dir
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/CMakeFiles/rebuild_cache.dir

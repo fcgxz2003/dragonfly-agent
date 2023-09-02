@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libtritonasyncworkqueue.so -o libtritonasyncworkqueue.so "CMakeFiles/triton-common-async-work-queue.dir/async_work_queue.cc.o" "CMakeFiles/triton-common-async-work-queue.dir/error.cc.o" "CMakeFiles/triton-common-async-work-queue.dir/thread_pool.cc.o"  -pthread 

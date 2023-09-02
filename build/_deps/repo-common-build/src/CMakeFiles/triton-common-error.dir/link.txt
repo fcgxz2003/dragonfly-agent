@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libtritoncommonerror.so -o libtritoncommonerror.so "CMakeFiles/triton-common-error.dir/error.cc.o" 

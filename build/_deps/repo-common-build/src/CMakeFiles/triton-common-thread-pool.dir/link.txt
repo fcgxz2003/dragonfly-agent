@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libtritonthreadpool.so -o libtritonthreadpool.so "CMakeFiles/triton-common-thread-pool.dir/thread_pool.cc.o"  -pthread 

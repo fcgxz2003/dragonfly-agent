@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/CMakeFiles/http-lib-populate"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/CMakeFiles/http-lib-populate.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/CMakeFiles/http-lib-populate-complete.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/http-lib-populate-prefix/src/http-lib-populate-stamp/http-lib-populate-build.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/http-lib-populate-prefix/src/http-lib-populate-stamp/http-lib-populate-configure.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/http-lib-populate-prefix/src/http-lib-populate-stamp/http-lib-populate-download.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/http-lib-populate-prefix/src/http-lib-populate-stamp/http-lib-populate-install.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/http-lib-populate-prefix/src/http-lib-populate-stamp/http-lib-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/http-lib-populate-prefix/src/http-lib-populate-stamp/http-lib-populate-patch.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/http-lib-populate-prefix/src/http-lib-populate-stamp/http-lib-populate-test.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/http-lib-populate-prefix/src/http-lib-populate-stamp/http-lib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"http-lib-populate"
+		],
+		"name" : "http-lib-populate"
+	}
+}

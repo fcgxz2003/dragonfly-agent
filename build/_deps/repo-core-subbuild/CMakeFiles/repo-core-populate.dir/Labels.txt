@@ -1,0 +1,14 @@
+# Target labels
+ repo-core-populate
+# Source files and their labels
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-core-subbuild/CMakeFiles/repo-core-populate
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-core-subbuild/CMakeFiles/repo-core-populate.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-core-subbuild/CMakeFiles/repo-core-populate-complete.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-core-subbuild/repo-core-populate-prefix/src/repo-core-populate-stamp/repo-core-populate-build.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-core-subbuild/repo-core-populate-prefix/src/repo-core-populate-stamp/repo-core-populate-configure.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-core-subbuild/repo-core-populate-prefix/src/repo-core-populate-stamp/repo-core-populate-download.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-core-subbuild/repo-core-populate-prefix/src/repo-core-populate-stamp/repo-core-populate-install.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-core-subbuild/repo-core-populate-prefix/src/repo-core-populate-stamp/repo-core-populate-mkdir.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-core-subbuild/repo-core-populate-prefix/src/repo-core-populate-stamp/repo-core-populate-patch.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-core-subbuild/repo-core-populate-prefix/src/repo-core-populate-stamp/repo-core-populate-test.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-core-subbuild/repo-core-populate-prefix/src/repo-core-populate-stamp/repo-core-populate-update.rule

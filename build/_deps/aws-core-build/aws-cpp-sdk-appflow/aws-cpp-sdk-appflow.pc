@@ -1,0 +1,10 @@
+includedir=/home/d7y/dragonfly-repository-agent-by-xz/build/install/include
+libdir=/home/d7y/dragonfly-repository-agent-by-xz/build/install/lib
+
+Name: aws-cpp-sdk-appflow
+Description: 
+Version: 1.9.274
+Cflags: -I${includedir} -fno-exceptions -std=c++11
+Libs: -L${libdir} -laws-cpp-sdk-appflow 
+Libs.private: 
+Requires:  aws-cpp-sdk-core

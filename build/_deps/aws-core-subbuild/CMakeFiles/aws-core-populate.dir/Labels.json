@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/CMakeFiles/aws-core-populate"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/CMakeFiles/aws-core-populate.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/CMakeFiles/aws-core-populate-complete.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-build.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-configure.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-download.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-install.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-patch.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-test.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"aws-core-populate"
+		],
+		"name" : "aws-core-populate"
+	}
+}

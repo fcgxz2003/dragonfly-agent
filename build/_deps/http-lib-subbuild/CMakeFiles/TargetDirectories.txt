@@ -1,0 +1,3 @@
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/CMakeFiles/http-lib-populate.dir
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/CMakeFiles/edit_cache.dir
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/http-lib-subbuild/CMakeFiles/rebuild_cache.dir

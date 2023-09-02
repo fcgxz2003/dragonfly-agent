@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libtritontableprinter.so -o libtritontableprinter.so "CMakeFiles/triton-common-table-printer.dir/table_printer.cc.o" 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libtritoncommonlogging.so -o libtritoncommonlogging.so "CMakeFiles/triton-common-logging.dir/logging.cc.o" 

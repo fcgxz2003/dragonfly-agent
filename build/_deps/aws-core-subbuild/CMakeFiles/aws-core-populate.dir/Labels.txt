@@ -1,0 +1,14 @@
+# Target labels
+ aws-core-populate
+# Source files and their labels
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/CMakeFiles/aws-core-populate
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/CMakeFiles/aws-core-populate.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/CMakeFiles/aws-core-populate-complete.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-build.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-configure.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-download.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-install.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-mkdir.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-patch.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-test.rule
+/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-subbuild/aws-core-populate-prefix/src/aws-core-populate-stamp/aws-core-populate-update.rule

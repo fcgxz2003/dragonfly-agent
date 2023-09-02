@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-common-subbuild/CMakeFiles/repo-common-populate"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-common-subbuild/CMakeFiles/repo-common-populate.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-common-subbuild/CMakeFiles/repo-common-populate-complete.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-common-subbuild/repo-common-populate-prefix/src/repo-common-populate-stamp/repo-common-populate-build.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-common-subbuild/repo-common-populate-prefix/src/repo-common-populate-stamp/repo-common-populate-configure.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-common-subbuild/repo-common-populate-prefix/src/repo-common-populate-stamp/repo-common-populate-download.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-common-subbuild/repo-common-populate-prefix/src/repo-common-populate-stamp/repo-common-populate-install.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-common-subbuild/repo-common-populate-prefix/src/repo-common-populate-stamp/repo-common-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-common-subbuild/repo-common-populate-prefix/src/repo-common-populate-stamp/repo-common-populate-patch.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-common-subbuild/repo-common-populate-prefix/src/repo-common-populate-stamp/repo-common-populate-test.rule"
+		},
+		{
+			"file" : "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-common-subbuild/repo-common-populate-prefix/src/repo-common-populate-stamp/repo-common-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"repo-common-populate"
+		],
+		"name" : "repo-common-populate"
+	}
+}
