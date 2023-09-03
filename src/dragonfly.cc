@@ -33,13 +33,13 @@
 #include "triton/core/tritonrepoagent.h"
 #include "triton/core/tritonserver.h"
 #include "triton/common/triton_json.h"
-// #include "aws/core/Aws.h"
-// #include "aws/s3/S3Client.h"
-// #include "httplib.h"
-// #include <aws/s3/model/HeadBucketRequest.h>
-// #include <aws/s3/model/HeadObjectRequest.h>
-// #include <aws/s3/model/ListObjectsV2Request.h>
-// #include <aws/s3/model/ListObjectsV2Result.h>
+#include "aws/core/Aws.h"
+#include "aws/s3/S3Client.h"
+#include "httplib.h"
+// #include "aws/s3/model/HeadBucketRequest.h"
+// #include "aws/s3/model/HeadObjectRequest.h"
+// #include "aws/s3/model/ListObjectsV2Request.h"
+// #include "aws/s3/model/ListObjectsV2Result.h"
 
 const uint64_t expiresInSec = 3600;
 

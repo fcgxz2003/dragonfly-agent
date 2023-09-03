@@ -82,7 +82,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/d7y/dragonfly-repository-agent-by-xz/build/install/repoagents/dragonfly/libtritonrepoagent_dragonfly.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/home/d7y/dragonfly-repository-agent-by-xz/build/install/repoagents/dragonfly/libtritonrepoagent_dragonfly.so"
-         OLD_RPATH "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-core-build:"
+         OLD_RPATH "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/repo-core-build:/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-build/aws-cpp-sdk-s3:/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-build/aws-cpp-sdk-core:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/d7y/dragonfly-repository-agent-by-xz/build/install/repoagents/dragonfly/libtritonrepoagent_dragonfly.so")

@@ -13534,3 +13534,1983 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:130 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_ASM_FLAGS: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "SIKEP434R3_ASM_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_530a9/fast && /usr/bin/make  -f CMakeFiles/cmTC_530a9.dir/build.make CMakeFiles/cmTC_530a9.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_530a9.dir/noop_main.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_530a9.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_530a9.dir/sikep434r3.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_530a9.dir/sikep434r3.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3.c
+        Building ASM object CMakeFiles/cmTC_530a9.dir/sikep434r3_fp_x64_asm.S.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_530a9.dir/sikep434r3_fp_x64_asm.S.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3_fp_x64_asm.S
+        Linking C executable cmTC_530a9
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_530a9.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_530a9.dir/noop_main.c.o CMakeFiles/cmTC_530a9.dir/sikep434r3.c.o CMakeFiles/cmTC_530a9.dir/sikep434r3_fp_x64_asm.S.o -o cmTC_530a9 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:144 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_ASM_FLAGS: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "ADX_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8014d/fast && /usr/bin/make  -f CMakeFiles/cmTC_8014d.dir/build.make CMakeFiles/cmTC_8014d.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_8014d.dir/noop_main.c.o
+        /usr/bin/cc -DS2N_ADX   -o CMakeFiles/cmTC_8014d.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_8014d.dir/sikep434r3.c.o
+        /usr/bin/cc -DS2N_ADX   -o CMakeFiles/cmTC_8014d.dir/sikep434r3.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3.c
+        Building ASM object CMakeFiles/cmTC_8014d.dir/sikep434r3_fp_x64_asm.S.o
+        /usr/bin/cc -DS2N_ADX   -o CMakeFiles/cmTC_8014d.dir/sikep434r3_fp_x64_asm.S.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3_fp_x64_asm.S
+        Linking C executable cmTC_8014d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8014d.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_8014d.dir/noop_main.c.o CMakeFiles/cmTC_8014d.dir/sikep434r3.c.o CMakeFiles/cmTC_8014d.dir/sikep434r3_fp_x64_asm.S.o -o cmTC_8014d 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:166 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_AVX2_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d8eae/fast && /usr/bin/make  -f CMakeFiles/cmTC_d8eae.dir/build.make CMakeFiles/cmTC_d8eae.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_d8eae.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx2 -DS2N_BIKE_R3_AVX2 -o CMakeFiles/cmTC_d8eae.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_d8eae.dir/gf2x_mul_avx2.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx2 -DS2N_BIKE_R3_AVX2 -o CMakeFiles/cmTC_d8eae.dir/gf2x_mul_avx2.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx2.c
+        In file included from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/types.h:14:0,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/utilities.h:13,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/cleanup.h:10,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx2.c:12:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/error.h:10:10: fatal error: utils/s2n_safety.h: No such file or directory
+         #include "utils/s2n_safety.h"
+                  ^~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_d8eae.dir/build.make:90: recipe for target 'CMakeFiles/cmTC_d8eae.dir/gf2x_mul_avx2.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_d8eae.dir/gf2x_mul_avx2.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_d8eae/fast' failed
+        make: *** [cmTC_d8eae/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:177 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_AVX512_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ef8c0/fast && /usr/bin/make  -f CMakeFiles/cmTC_ef8c0.dir/build.make CMakeFiles/cmTC_ef8c0.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_ef8c0.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx512f -mavx512bw -mavx512dq -DS2N_BIKE_R3_AVX512 -o CMakeFiles/cmTC_ef8c0.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_ef8c0.dir/gf2x_mul_avx512.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx512f -mavx512bw -mavx512dq -DS2N_BIKE_R3_AVX512 -o CMakeFiles/cmTC_ef8c0.dir/gf2x_mul_avx512.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx512.c
+        In file included from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/types.h:14:0,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/utilities.h:13,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/cleanup.h:10,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx512.c:12:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/error.h:10:10: fatal error: utils/s2n_safety.h: No such file or directory
+         #include "utils/s2n_safety.h"
+                  ^~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_ef8c0.dir/build.make:90: recipe for target 'CMakeFiles/cmTC_ef8c0.dir/gf2x_mul_avx512.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_ef8c0.dir/gf2x_mul_avx512.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_ef8c0/fast' failed
+        make: *** [cmTC_ef8c0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:188 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_PCLMUL_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_021ca/fast && /usr/bin/make  -f CMakeFiles/cmTC_021ca.dir/build.make CMakeFiles/cmTC_021ca.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_021ca.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mpclmul -msse2 -DS2N_BIKE_R3_PCLMUL -o CMakeFiles/cmTC_021ca.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_021ca.dir/gf2x_mul_base_pclmul.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mpclmul -msse2 -DS2N_BIKE_R3_PCLMUL -o CMakeFiles/cmTC_021ca.dir/gf2x_mul_base_pclmul.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_base_pclmul.c
+        In file included from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_base_pclmul.c:12:0:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_internal.h:13:10: fatal error: pq-crypto/s2n_pq.h: No such file or directory
+         #include "pq-crypto/s2n_pq.h"
+                  ^~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_021ca.dir/build.make:90: recipe for target 'CMakeFiles/cmTC_021ca.dir/gf2x_mul_base_pclmul.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_021ca.dir/gf2x_mul_base_pclmul.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_021ca/fast' failed
+        make: *** [cmTC_021ca/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:199 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_VPCLMUL_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_57a1b/fast && /usr/bin/make  -f CMakeFiles/cmTC_57a1b.dir/build.make CMakeFiles/cmTC_57a1b.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_57a1b.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mvpclmulqdq -mavx512f -mavx512bw -mavx512dq -DS2N_BIKE_R3_VPCLMUL -o CMakeFiles/cmTC_57a1b.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        cc: error: unrecognized command line option ‘-mvpclmulqdq’; did you mean ‘-mpclmul’?
+        CMakeFiles/cmTC_57a1b.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_57a1b.dir/noop_main.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_57a1b.dir/noop_main.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_57a1b/fast' failed
+        make: *** [cmTC_57a1b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:222 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "KYBER512R3_AVX2_BMI2_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_00a58/fast && /usr/bin/make  -f CMakeFiles/cmTC_00a58.dir/build.make CMakeFiles/cmTC_00a58.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_00a58.dir/noop_main.c.o
+        /usr/bin/cc   -mavx2 -mavx -mbmi2 -o CMakeFiles/cmTC_00a58.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Linking C executable cmTC_00a58
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00a58.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_00a58.dir/noop_main.c.o -o cmTC_00a58 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:242 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "S2N_HAVE_EXECINFO"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_36ac6/fast && /usr/bin/make  -f CMakeFiles/cmTC_36ac6.dir/build.make CMakeFiles/cmTC_36ac6.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_36ac6.dir/execinfo.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_36ac6.dir/execinfo.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/execinfo.c
+        Linking C executable cmTC_36ac6
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36ac6.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_36ac6.dir/execinfo.c.o -o cmTC_36ac6 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:249 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "S2N_CPUID_AVAILABLE"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_27c5e/fast && /usr/bin/make  -f CMakeFiles/cmTC_27c5e.dir/build.make CMakeFiles/cmTC_27c5e.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_27c5e.dir/cpuid.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_27c5e.dir/cpuid.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/cpuid.c
+        Linking C executable cmTC_27c5e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27c5e.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_27c5e.dir/cpuid.c.o -o cmTC_27c5e 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:256 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "S2N_FEATURES_AVAILABLE"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_20f96/fast && /usr/bin/make  -f CMakeFiles/cmTC_20f96.dir/build.make CMakeFiles/cmTC_20f96.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_20f96.dir/features.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_20f96.dir/features.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/features.c
+        Linking C executable cmTC_20f96
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20f96.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_20f96.dir/features.c.o -o cmTC_20f96 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "FALL_THROUGH_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_afb2b/fast && /usr/bin/make  -f CMakeFiles/cmTC_afb2b.dir/build.make CMakeFiles/cmTC_afb2b.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_afb2b.dir/fallthrough.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_afb2b.dir/fallthrough.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/fallthrough.c
+        Linking C executable cmTC_afb2b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afb2b.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_afb2b.dir/fallthrough.c.o -o cmTC_afb2b 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:271 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "__RESTRICT__SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e6236/fast && /usr/bin/make  -f CMakeFiles/cmTC_e6236.dir/build.make CMakeFiles/cmTC_e6236.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_e6236.dir/__restrict__.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_e6236.dir/__restrict__.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/__restrict__.c
+        Linking C executable cmTC_e6236
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6236.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_e6236.dir/__restrict__.c.o -o cmTC_e6236 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:279 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "MADVISE_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_87332/fast && /usr/bin/make  -f CMakeFiles/cmTC_87332.dir/build.make CMakeFiles/cmTC_87332.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_87332.dir/madvise.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_87332.dir/madvise.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/madvise.c
+        Linking C executable cmTC_87332
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87332.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_87332.dir/madvise.c.o -o cmTC_87332 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:287 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "MINHERIT_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f4a95/fast && /usr/bin/make  -f CMakeFiles/cmTC_f4a95.dir/build.make CMakeFiles/cmTC_f4a95.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_f4a95.dir/minherit.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_f4a95.dir/minherit.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/minherit.c
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/minherit.c: In function ‘main’:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/minherit.c:20:5: error: implicit declaration of function ‘minherit’; did you mean ‘mincore’? [-Werror=implicit-function-declaration]
+             minherit(NULL, 0, 0);
+             ^~~~~~~~
+             mincore
+        cc1: all warnings being treated as errors
+        CMakeFiles/cmTC_f4a95.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_f4a95.dir/minherit.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_f4a95.dir/minherit.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_f4a95/fast' failed
+        make: *** [cmTC_f4a95/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:295 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "CLONE_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fd2ec/fast && /usr/bin/make  -f CMakeFiles/cmTC_fd2ec.dir/build.make CMakeFiles/cmTC_fd2ec.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_fd2ec.dir/clone.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_fd2ec.dir/clone.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/clone.c
+        Linking C executable cmTC_fd2ec
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd2ec.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_fd2ec.dir/clone.c.o -o cmTC_fd2ec 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:491 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/cmake/modules"
+    buildResult:
+      variable: "LIBCRYPTO_SUPPORTS_EVP_MD5_SHA1_HASH"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_34e99/fast && /usr/bin/make  -f CMakeFiles/cmTC_34e99.dir/build.make CMakeFiles/cmTC_34e99.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_34e99.dir/evp_md5_sha1.c.o
+        /usr/bin/cc   -pthread -o CMakeFiles/cmTC_34e99.dir/evp_md5_sha1.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/evp_md5_sha1.c
+        Linking C executable cmTC_34e99
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34e99.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_34e99.dir/evp_md5_sha1.c.o -o cmTC_34e99  /usr/lib/x86_64-linux-gnu/libcrypto.so -ldl -lrt -pthread 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:502 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/cmake/modules"
+    buildResult:
+      variable: "LIBCRYPTO_SUPPORTS_EVP_MD_CTX_SET_PKEY_CTX"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f17ae/fast && /usr/bin/make  -f CMakeFiles/cmTC_f17ae.dir/build.make CMakeFiles/cmTC_f17ae.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_f17ae.dir/evp_md_ctx_set_pkey_ctx.c.o
+        /usr/bin/cc   -pthread -o CMakeFiles/cmTC_f17ae.dir/evp_md_ctx_set_pkey_ctx.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/evp_md_ctx_set_pkey_ctx.c
+        Linking C executable cmTC_f17ae
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f17ae.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_f17ae.dir/evp_md_ctx_set_pkey_ctx.c.o -o cmTC_f17ae  /usr/lib/x86_64-linux-gnu/libcrypto.so -ldl -lrt -pthread 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:130 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_ASM_FLAGS: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "SIKEP434R3_ASM_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a60ab/fast && /usr/bin/make  -f CMakeFiles/cmTC_a60ab.dir/build.make CMakeFiles/cmTC_a60ab.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_a60ab.dir/noop_main.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a60ab.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_a60ab.dir/sikep434r3.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a60ab.dir/sikep434r3.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3.c
+        Building ASM object CMakeFiles/cmTC_a60ab.dir/sikep434r3_fp_x64_asm.S.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a60ab.dir/sikep434r3_fp_x64_asm.S.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3_fp_x64_asm.S
+        Linking C executable cmTC_a60ab
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a60ab.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_a60ab.dir/noop_main.c.o CMakeFiles/cmTC_a60ab.dir/sikep434r3.c.o CMakeFiles/cmTC_a60ab.dir/sikep434r3_fp_x64_asm.S.o -o cmTC_a60ab 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:144 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_ASM_FLAGS: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "ADX_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fe2dd/fast && /usr/bin/make  -f CMakeFiles/cmTC_fe2dd.dir/build.make CMakeFiles/cmTC_fe2dd.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_fe2dd.dir/noop_main.c.o
+        /usr/bin/cc -DS2N_ADX   -o CMakeFiles/cmTC_fe2dd.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_fe2dd.dir/sikep434r3.c.o
+        /usr/bin/cc -DS2N_ADX   -o CMakeFiles/cmTC_fe2dd.dir/sikep434r3.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3.c
+        Building ASM object CMakeFiles/cmTC_fe2dd.dir/sikep434r3_fp_x64_asm.S.o
+        /usr/bin/cc -DS2N_ADX   -o CMakeFiles/cmTC_fe2dd.dir/sikep434r3_fp_x64_asm.S.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3_fp_x64_asm.S
+        Linking C executable cmTC_fe2dd
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe2dd.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_fe2dd.dir/noop_main.c.o CMakeFiles/cmTC_fe2dd.dir/sikep434r3.c.o CMakeFiles/cmTC_fe2dd.dir/sikep434r3_fp_x64_asm.S.o -o cmTC_fe2dd 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:166 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_AVX2_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_756b5/fast && /usr/bin/make  -f CMakeFiles/cmTC_756b5.dir/build.make CMakeFiles/cmTC_756b5.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_756b5.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx2 -DS2N_BIKE_R3_AVX2 -o CMakeFiles/cmTC_756b5.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_756b5.dir/gf2x_mul_avx2.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx2 -DS2N_BIKE_R3_AVX2 -o CMakeFiles/cmTC_756b5.dir/gf2x_mul_avx2.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx2.c
+        In file included from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/types.h:14:0,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/utilities.h:13,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/cleanup.h:10,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx2.c:12:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/error.h:10:10: fatal error: utils/s2n_safety.h: No such file or directory
+         #include "utils/s2n_safety.h"
+                  ^~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_756b5.dir/build.make:90: recipe for target 'CMakeFiles/cmTC_756b5.dir/gf2x_mul_avx2.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_756b5.dir/gf2x_mul_avx2.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_756b5/fast' failed
+        make: *** [cmTC_756b5/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:177 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_AVX512_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_96f92/fast && /usr/bin/make  -f CMakeFiles/cmTC_96f92.dir/build.make CMakeFiles/cmTC_96f92.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_96f92.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx512f -mavx512bw -mavx512dq -DS2N_BIKE_R3_AVX512 -o CMakeFiles/cmTC_96f92.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_96f92.dir/gf2x_mul_avx512.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx512f -mavx512bw -mavx512dq -DS2N_BIKE_R3_AVX512 -o CMakeFiles/cmTC_96f92.dir/gf2x_mul_avx512.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx512.c
+        In file included from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/types.h:14:0,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/utilities.h:13,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/cleanup.h:10,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx512.c:12:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/error.h:10:10: fatal error: utils/s2n_safety.h: No such file or directory
+         #include "utils/s2n_safety.h"
+                  ^~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_96f92.dir/build.make:90: recipe for target 'CMakeFiles/cmTC_96f92.dir/gf2x_mul_avx512.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_96f92.dir/gf2x_mul_avx512.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_96f92/fast' failed
+        make: *** [cmTC_96f92/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:188 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_PCLMUL_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_65a28/fast && /usr/bin/make  -f CMakeFiles/cmTC_65a28.dir/build.make CMakeFiles/cmTC_65a28.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_65a28.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mpclmul -msse2 -DS2N_BIKE_R3_PCLMUL -o CMakeFiles/cmTC_65a28.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_65a28.dir/gf2x_mul_base_pclmul.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mpclmul -msse2 -DS2N_BIKE_R3_PCLMUL -o CMakeFiles/cmTC_65a28.dir/gf2x_mul_base_pclmul.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_base_pclmul.c
+        In file included from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_base_pclmul.c:12:0:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_internal.h:13:10: fatal error: pq-crypto/s2n_pq.h: No such file or directory
+         #include "pq-crypto/s2n_pq.h"
+                  ^~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_65a28.dir/build.make:90: recipe for target 'CMakeFiles/cmTC_65a28.dir/gf2x_mul_base_pclmul.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_65a28.dir/gf2x_mul_base_pclmul.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_65a28/fast' failed
+        make: *** [cmTC_65a28/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:199 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_VPCLMUL_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99aaa/fast && /usr/bin/make  -f CMakeFiles/cmTC_99aaa.dir/build.make CMakeFiles/cmTC_99aaa.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_99aaa.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mvpclmulqdq -mavx512f -mavx512bw -mavx512dq -DS2N_BIKE_R3_VPCLMUL -o CMakeFiles/cmTC_99aaa.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        cc: error: unrecognized command line option ‘-mvpclmulqdq’; did you mean ‘-mpclmul’?
+        CMakeFiles/cmTC_99aaa.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_99aaa.dir/noop_main.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_99aaa.dir/noop_main.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_99aaa/fast' failed
+        make: *** [cmTC_99aaa/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:222 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "KYBER512R3_AVX2_BMI2_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3abc0/fast && /usr/bin/make  -f CMakeFiles/cmTC_3abc0.dir/build.make CMakeFiles/cmTC_3abc0.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_3abc0.dir/noop_main.c.o
+        /usr/bin/cc   -mavx2 -mavx -mbmi2 -o CMakeFiles/cmTC_3abc0.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Linking C executable cmTC_3abc0
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3abc0.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_3abc0.dir/noop_main.c.o -o cmTC_3abc0 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:242 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "S2N_HAVE_EXECINFO"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0a62b/fast && /usr/bin/make  -f CMakeFiles/cmTC_0a62b.dir/build.make CMakeFiles/cmTC_0a62b.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_0a62b.dir/execinfo.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_0a62b.dir/execinfo.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/execinfo.c
+        Linking C executable cmTC_0a62b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a62b.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_0a62b.dir/execinfo.c.o -o cmTC_0a62b 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:249 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "S2N_CPUID_AVAILABLE"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_782b2/fast && /usr/bin/make  -f CMakeFiles/cmTC_782b2.dir/build.make CMakeFiles/cmTC_782b2.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_782b2.dir/cpuid.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_782b2.dir/cpuid.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/cpuid.c
+        Linking C executable cmTC_782b2
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_782b2.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_782b2.dir/cpuid.c.o -o cmTC_782b2 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:256 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "S2N_FEATURES_AVAILABLE"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d5cfb/fast && /usr/bin/make  -f CMakeFiles/cmTC_d5cfb.dir/build.make CMakeFiles/cmTC_d5cfb.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_d5cfb.dir/features.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d5cfb.dir/features.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/features.c
+        Linking C executable cmTC_d5cfb
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5cfb.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_d5cfb.dir/features.c.o -o cmTC_d5cfb 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "FALL_THROUGH_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8c927/fast && /usr/bin/make  -f CMakeFiles/cmTC_8c927.dir/build.make CMakeFiles/cmTC_8c927.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_8c927.dir/fallthrough.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_8c927.dir/fallthrough.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/fallthrough.c
+        Linking C executable cmTC_8c927
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c927.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_8c927.dir/fallthrough.c.o -o cmTC_8c927 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:271 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "__RESTRICT__SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25bc4/fast && /usr/bin/make  -f CMakeFiles/cmTC_25bc4.dir/build.make CMakeFiles/cmTC_25bc4.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_25bc4.dir/__restrict__.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_25bc4.dir/__restrict__.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/__restrict__.c
+        Linking C executable cmTC_25bc4
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25bc4.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_25bc4.dir/__restrict__.c.o -o cmTC_25bc4 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:279 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "MADVISE_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b4429/fast && /usr/bin/make  -f CMakeFiles/cmTC_b4429.dir/build.make CMakeFiles/cmTC_b4429.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_b4429.dir/madvise.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_b4429.dir/madvise.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/madvise.c
+        Linking C executable cmTC_b4429
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4429.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_b4429.dir/madvise.c.o -o cmTC_b4429 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:287 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "MINHERIT_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0c943/fast && /usr/bin/make  -f CMakeFiles/cmTC_0c943.dir/build.make CMakeFiles/cmTC_0c943.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_0c943.dir/minherit.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_0c943.dir/minherit.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/minherit.c
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/minherit.c: In function ‘main’:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/minherit.c:20:5: error: implicit declaration of function ‘minherit’; did you mean ‘mincore’? [-Werror=implicit-function-declaration]
+             minherit(NULL, 0, 0);
+             ^~~~~~~~
+             mincore
+        cc1: all warnings being treated as errors
+        CMakeFiles/cmTC_0c943.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_0c943.dir/minherit.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_0c943.dir/minherit.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_0c943/fast' failed
+        make: *** [cmTC_0c943/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:295 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "CLONE_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_255c5/fast && /usr/bin/make  -f CMakeFiles/cmTC_255c5.dir/build.make CMakeFiles/cmTC_255c5.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_255c5.dir/clone.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_255c5.dir/clone.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/clone.c
+        Linking C executable cmTC_255c5
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_255c5.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_255c5.dir/clone.c.o -o cmTC_255c5 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:491 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/cmake/modules"
+    buildResult:
+      variable: "LIBCRYPTO_SUPPORTS_EVP_MD5_SHA1_HASH"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e0f68/fast && /usr/bin/make  -f CMakeFiles/cmTC_e0f68.dir/build.make CMakeFiles/cmTC_e0f68.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_e0f68.dir/evp_md5_sha1.c.o
+        /usr/bin/cc   -pthread -o CMakeFiles/cmTC_e0f68.dir/evp_md5_sha1.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/evp_md5_sha1.c
+        Linking C executable cmTC_e0f68
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0f68.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_e0f68.dir/evp_md5_sha1.c.o -o cmTC_e0f68  /usr/lib/x86_64-linux-gnu/libcrypto.so -ldl -lrt -pthread 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:502 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/cmake/modules"
+    buildResult:
+      variable: "LIBCRYPTO_SUPPORTS_EVP_MD_CTX_SET_PKEY_CTX"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_85281/fast && /usr/bin/make  -f CMakeFiles/cmTC_85281.dir/build.make CMakeFiles/cmTC_85281.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_85281.dir/evp_md_ctx_set_pkey_ctx.c.o
+        /usr/bin/cc   -pthread -o CMakeFiles/cmTC_85281.dir/evp_md_ctx_set_pkey_ctx.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/evp_md_ctx_set_pkey_ctx.c
+        Linking C executable cmTC_85281
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85281.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_85281.dir/evp_md_ctx_set_pkey_ctx.c.o -o cmTC_85281  /usr/lib/x86_64-linux-gnu/libcrypto.so -ldl -lrt -pthread 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:130 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_ASM_FLAGS: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "SIKEP434R3_ASM_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dd1b1/fast && /usr/bin/make  -f CMakeFiles/cmTC_dd1b1.dir/build.make CMakeFiles/cmTC_dd1b1.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_dd1b1.dir/noop_main.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_dd1b1.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_dd1b1.dir/sikep434r3.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_dd1b1.dir/sikep434r3.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3.c
+        Building ASM object CMakeFiles/cmTC_dd1b1.dir/sikep434r3_fp_x64_asm.S.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_dd1b1.dir/sikep434r3_fp_x64_asm.S.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3_fp_x64_asm.S
+        Linking C executable cmTC_dd1b1
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd1b1.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_dd1b1.dir/noop_main.c.o CMakeFiles/cmTC_dd1b1.dir/sikep434r3.c.o CMakeFiles/cmTC_dd1b1.dir/sikep434r3_fp_x64_asm.S.o -o cmTC_dd1b1 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:144 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_ASM_FLAGS: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "ADX_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1a48f/fast && /usr/bin/make  -f CMakeFiles/cmTC_1a48f.dir/build.make CMakeFiles/cmTC_1a48f.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_1a48f.dir/noop_main.c.o
+        /usr/bin/cc -DS2N_ADX   -o CMakeFiles/cmTC_1a48f.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_1a48f.dir/sikep434r3.c.o
+        /usr/bin/cc -DS2N_ADX   -o CMakeFiles/cmTC_1a48f.dir/sikep434r3.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3.c
+        Building ASM object CMakeFiles/cmTC_1a48f.dir/sikep434r3_fp_x64_asm.S.o
+        /usr/bin/cc -DS2N_ADX   -o CMakeFiles/cmTC_1a48f.dir/sikep434r3_fp_x64_asm.S.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3_fp_x64_asm.S
+        Linking C executable cmTC_1a48f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a48f.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_1a48f.dir/noop_main.c.o CMakeFiles/cmTC_1a48f.dir/sikep434r3.c.o CMakeFiles/cmTC_1a48f.dir/sikep434r3_fp_x64_asm.S.o -o cmTC_1a48f 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:166 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_AVX2_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eb233/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb233.dir/build.make CMakeFiles/cmTC_eb233.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_eb233.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx2 -DS2N_BIKE_R3_AVX2 -o CMakeFiles/cmTC_eb233.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_eb233.dir/gf2x_mul_avx2.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx2 -DS2N_BIKE_R3_AVX2 -o CMakeFiles/cmTC_eb233.dir/gf2x_mul_avx2.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx2.c
+        In file included from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/types.h:14:0,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/utilities.h:13,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/cleanup.h:10,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx2.c:12:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/error.h:10:10: fatal error: utils/s2n_safety.h: No such file or directory
+         #include "utils/s2n_safety.h"
+                  ^~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_eb233.dir/build.make:90: recipe for target 'CMakeFiles/cmTC_eb233.dir/gf2x_mul_avx2.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_eb233.dir/gf2x_mul_avx2.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_eb233/fast' failed
+        make: *** [cmTC_eb233/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:177 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_AVX512_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7cf32/fast && /usr/bin/make  -f CMakeFiles/cmTC_7cf32.dir/build.make CMakeFiles/cmTC_7cf32.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_7cf32.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx512f -mavx512bw -mavx512dq -DS2N_BIKE_R3_AVX512 -o CMakeFiles/cmTC_7cf32.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_7cf32.dir/gf2x_mul_avx512.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx512f -mavx512bw -mavx512dq -DS2N_BIKE_R3_AVX512 -o CMakeFiles/cmTC_7cf32.dir/gf2x_mul_avx512.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx512.c
+        In file included from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/types.h:14:0,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/utilities.h:13,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/cleanup.h:10,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx512.c:12:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/error.h:10:10: fatal error: utils/s2n_safety.h: No such file or directory
+         #include "utils/s2n_safety.h"
+                  ^~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_7cf32.dir/build.make:90: recipe for target 'CMakeFiles/cmTC_7cf32.dir/gf2x_mul_avx512.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_7cf32.dir/gf2x_mul_avx512.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_7cf32/fast' failed
+        make: *** [cmTC_7cf32/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:188 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_PCLMUL_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b960a/fast && /usr/bin/make  -f CMakeFiles/cmTC_b960a.dir/build.make CMakeFiles/cmTC_b960a.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_b960a.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mpclmul -msse2 -DS2N_BIKE_R3_PCLMUL -o CMakeFiles/cmTC_b960a.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_b960a.dir/gf2x_mul_base_pclmul.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mpclmul -msse2 -DS2N_BIKE_R3_PCLMUL -o CMakeFiles/cmTC_b960a.dir/gf2x_mul_base_pclmul.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_base_pclmul.c
+        In file included from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_base_pclmul.c:12:0:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_internal.h:13:10: fatal error: pq-crypto/s2n_pq.h: No such file or directory
+         #include "pq-crypto/s2n_pq.h"
+                  ^~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_b960a.dir/build.make:90: recipe for target 'CMakeFiles/cmTC_b960a.dir/gf2x_mul_base_pclmul.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_b960a.dir/gf2x_mul_base_pclmul.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_b960a/fast' failed
+        make: *** [cmTC_b960a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:199 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_VPCLMUL_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_21280/fast && /usr/bin/make  -f CMakeFiles/cmTC_21280.dir/build.make CMakeFiles/cmTC_21280.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_21280.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mvpclmulqdq -mavx512f -mavx512bw -mavx512dq -DS2N_BIKE_R3_VPCLMUL -o CMakeFiles/cmTC_21280.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        cc: error: unrecognized command line option ‘-mvpclmulqdq’; did you mean ‘-mpclmul’?
+        CMakeFiles/cmTC_21280.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_21280.dir/noop_main.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_21280.dir/noop_main.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_21280/fast' failed
+        make: *** [cmTC_21280/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:222 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "KYBER512R3_AVX2_BMI2_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_21cc6/fast && /usr/bin/make  -f CMakeFiles/cmTC_21cc6.dir/build.make CMakeFiles/cmTC_21cc6.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_21cc6.dir/noop_main.c.o
+        /usr/bin/cc   -mavx2 -mavx -mbmi2 -o CMakeFiles/cmTC_21cc6.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Linking C executable cmTC_21cc6
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21cc6.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_21cc6.dir/noop_main.c.o -o cmTC_21cc6 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:242 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "S2N_HAVE_EXECINFO"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6dffe/fast && /usr/bin/make  -f CMakeFiles/cmTC_6dffe.dir/build.make CMakeFiles/cmTC_6dffe.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_6dffe.dir/execinfo.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_6dffe.dir/execinfo.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/execinfo.c
+        Linking C executable cmTC_6dffe
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dffe.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_6dffe.dir/execinfo.c.o -o cmTC_6dffe 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:249 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "S2N_CPUID_AVAILABLE"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1b94c/fast && /usr/bin/make  -f CMakeFiles/cmTC_1b94c.dir/build.make CMakeFiles/cmTC_1b94c.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_1b94c.dir/cpuid.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_1b94c.dir/cpuid.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/cpuid.c
+        Linking C executable cmTC_1b94c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b94c.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_1b94c.dir/cpuid.c.o -o cmTC_1b94c 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:256 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "S2N_FEATURES_AVAILABLE"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aaf01/fast && /usr/bin/make  -f CMakeFiles/cmTC_aaf01.dir/build.make CMakeFiles/cmTC_aaf01.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_aaf01.dir/features.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_aaf01.dir/features.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/features.c
+        Linking C executable cmTC_aaf01
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaf01.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_aaf01.dir/features.c.o -o cmTC_aaf01 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "FALL_THROUGH_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_287fe/fast && /usr/bin/make  -f CMakeFiles/cmTC_287fe.dir/build.make CMakeFiles/cmTC_287fe.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_287fe.dir/fallthrough.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_287fe.dir/fallthrough.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/fallthrough.c
+        Linking C executable cmTC_287fe
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_287fe.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_287fe.dir/fallthrough.c.o -o cmTC_287fe 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:271 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "__RESTRICT__SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2ffeb/fast && /usr/bin/make  -f CMakeFiles/cmTC_2ffeb.dir/build.make CMakeFiles/cmTC_2ffeb.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_2ffeb.dir/__restrict__.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_2ffeb.dir/__restrict__.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/__restrict__.c
+        Linking C executable cmTC_2ffeb
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ffeb.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_2ffeb.dir/__restrict__.c.o -o cmTC_2ffeb 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:279 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "MADVISE_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0835b/fast && /usr/bin/make  -f CMakeFiles/cmTC_0835b.dir/build.make CMakeFiles/cmTC_0835b.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_0835b.dir/madvise.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_0835b.dir/madvise.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/madvise.c
+        Linking C executable cmTC_0835b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0835b.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_0835b.dir/madvise.c.o -o cmTC_0835b 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:287 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "MINHERIT_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_437ea/fast && /usr/bin/make  -f CMakeFiles/cmTC_437ea.dir/build.make CMakeFiles/cmTC_437ea.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_437ea.dir/minherit.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_437ea.dir/minherit.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/minherit.c
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/minherit.c: In function ‘main’:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/minherit.c:20:5: error: implicit declaration of function ‘minherit’; did you mean ‘mincore’? [-Werror=implicit-function-declaration]
+             minherit(NULL, 0, 0);
+             ^~~~~~~~
+             mincore
+        cc1: all warnings being treated as errors
+        CMakeFiles/cmTC_437ea.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_437ea.dir/minherit.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_437ea.dir/minherit.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_437ea/fast' failed
+        make: *** [cmTC_437ea/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:295 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "CLONE_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dcfec/fast && /usr/bin/make  -f CMakeFiles/cmTC_dcfec.dir/build.make CMakeFiles/cmTC_dcfec.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_dcfec.dir/clone.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_dcfec.dir/clone.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/clone.c
+        Linking C executable cmTC_dcfec
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcfec.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_dcfec.dir/clone.c.o -o cmTC_dcfec 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:491 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/cmake/modules"
+    buildResult:
+      variable: "LIBCRYPTO_SUPPORTS_EVP_MD5_SHA1_HASH"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_94167/fast && /usr/bin/make  -f CMakeFiles/cmTC_94167.dir/build.make CMakeFiles/cmTC_94167.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_94167.dir/evp_md5_sha1.c.o
+        /usr/bin/cc   -pthread -o CMakeFiles/cmTC_94167.dir/evp_md5_sha1.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/evp_md5_sha1.c
+        Linking C executable cmTC_94167
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94167.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_94167.dir/evp_md5_sha1.c.o -o cmTC_94167  /usr/lib/x86_64-linux-gnu/libcrypto.so -ldl -lrt -pthread 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:502 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/cmake/modules"
+    buildResult:
+      variable: "LIBCRYPTO_SUPPORTS_EVP_MD_CTX_SET_PKEY_CTX"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_10234/fast && /usr/bin/make  -f CMakeFiles/cmTC_10234.dir/build.make CMakeFiles/cmTC_10234.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_10234.dir/evp_md_ctx_set_pkey_ctx.c.o
+        /usr/bin/cc   -pthread -o CMakeFiles/cmTC_10234.dir/evp_md_ctx_set_pkey_ctx.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/evp_md_ctx_set_pkey_ctx.c
+        Linking C executable cmTC_10234
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10234.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_10234.dir/evp_md_ctx_set_pkey_ctx.c.o -o cmTC_10234  /usr/lib/x86_64-linux-gnu/libcrypto.so -ldl -lrt -pthread 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:130 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_ASM_FLAGS: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "SIKEP434R3_ASM_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fbb3c/fast && /usr/bin/make  -f CMakeFiles/cmTC_fbb3c.dir/build.make CMakeFiles/cmTC_fbb3c.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_fbb3c.dir/noop_main.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_fbb3c.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_fbb3c.dir/sikep434r3.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_fbb3c.dir/sikep434r3.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3.c
+        Building ASM object CMakeFiles/cmTC_fbb3c.dir/sikep434r3_fp_x64_asm.S.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_fbb3c.dir/sikep434r3_fp_x64_asm.S.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3_fp_x64_asm.S
+        Linking C executable cmTC_fbb3c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbb3c.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_fbb3c.dir/noop_main.c.o CMakeFiles/cmTC_fbb3c.dir/sikep434r3.c.o CMakeFiles/cmTC_fbb3c.dir/sikep434r3_fp_x64_asm.S.o -o cmTC_fbb3c 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:144 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_ASM_FLAGS: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "ADX_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a7ebb/fast && /usr/bin/make  -f CMakeFiles/cmTC_a7ebb.dir/build.make CMakeFiles/cmTC_a7ebb.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_a7ebb.dir/noop_main.c.o
+        /usr/bin/cc -DS2N_ADX   -o CMakeFiles/cmTC_a7ebb.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_a7ebb.dir/sikep434r3.c.o
+        /usr/bin/cc -DS2N_ADX   -o CMakeFiles/cmTC_a7ebb.dir/sikep434r3.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3.c
+        Building ASM object CMakeFiles/cmTC_a7ebb.dir/sikep434r3_fp_x64_asm.S.o
+        /usr/bin/cc -DS2N_ADX   -o CMakeFiles/cmTC_a7ebb.dir/sikep434r3_fp_x64_asm.S.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/sike_r3/sikep434r3_fp_x64_asm.S
+        Linking C executable cmTC_a7ebb
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7ebb.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_a7ebb.dir/noop_main.c.o CMakeFiles/cmTC_a7ebb.dir/sikep434r3.c.o CMakeFiles/cmTC_a7ebb.dir/sikep434r3_fp_x64_asm.S.o -o cmTC_a7ebb 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:166 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_AVX2_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4fbc2/fast && /usr/bin/make  -f CMakeFiles/cmTC_4fbc2.dir/build.make CMakeFiles/cmTC_4fbc2.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_4fbc2.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx2 -DS2N_BIKE_R3_AVX2 -o CMakeFiles/cmTC_4fbc2.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_4fbc2.dir/gf2x_mul_avx2.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx2 -DS2N_BIKE_R3_AVX2 -o CMakeFiles/cmTC_4fbc2.dir/gf2x_mul_avx2.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx2.c
+        In file included from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/types.h:14:0,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/utilities.h:13,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/cleanup.h:10,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx2.c:12:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/error.h:10:10: fatal error: utils/s2n_safety.h: No such file or directory
+         #include "utils/s2n_safety.h"
+                  ^~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_4fbc2.dir/build.make:90: recipe for target 'CMakeFiles/cmTC_4fbc2.dir/gf2x_mul_avx2.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_4fbc2.dir/gf2x_mul_avx2.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_4fbc2/fast' failed
+        make: *** [cmTC_4fbc2/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:177 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_AVX512_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_828b8/fast && /usr/bin/make  -f CMakeFiles/cmTC_828b8.dir/build.make CMakeFiles/cmTC_828b8.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_828b8.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx512f -mavx512bw -mavx512dq -DS2N_BIKE_R3_AVX512 -o CMakeFiles/cmTC_828b8.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_828b8.dir/gf2x_mul_avx512.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mavx512f -mavx512bw -mavx512dq -DS2N_BIKE_R3_AVX512 -o CMakeFiles/cmTC_828b8.dir/gf2x_mul_avx512.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx512.c
+        In file included from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/types.h:14:0,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/utilities.h:13,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/cleanup.h:10,
+                         from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_avx512.c:12:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/error.h:10:10: fatal error: utils/s2n_safety.h: No such file or directory
+         #include "utils/s2n_safety.h"
+                  ^~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_828b8.dir/build.make:90: recipe for target 'CMakeFiles/cmTC_828b8.dir/gf2x_mul_avx512.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_828b8.dir/gf2x_mul_avx512.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_828b8/fast' failed
+        make: *** [cmTC_828b8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:188 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_PCLMUL_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_980d0/fast && /usr/bin/make  -f CMakeFiles/cmTC_980d0.dir/build.make CMakeFiles/cmTC_980d0.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_980d0.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mpclmul -msse2 -DS2N_BIKE_R3_PCLMUL -o CMakeFiles/cmTC_980d0.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Building C object CMakeFiles/cmTC_980d0.dir/gf2x_mul_base_pclmul.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mpclmul -msse2 -DS2N_BIKE_R3_PCLMUL -o CMakeFiles/cmTC_980d0.dir/gf2x_mul_base_pclmul.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_base_pclmul.c
+        In file included from /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_mul_base_pclmul.c:12:0:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/pq-crypto/bike_r3/gf2x_internal.h:13:10: fatal error: pq-crypto/s2n_pq.h: No such file or directory
+         #include "pq-crypto/s2n_pq.h"
+                  ^~~~~~~~~~~~~~~~~~~~
+        compilation terminated.
+        CMakeFiles/cmTC_980d0.dir/build.make:90: recipe for target 'CMakeFiles/cmTC_980d0.dir/gf2x_mul_base_pclmul.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_980d0.dir/gf2x_mul_base_pclmul.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_980d0/fast' failed
+        make: *** [cmTC_980d0/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:199 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "BIKE_R3_VPCLMUL_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fdb80/fast && /usr/bin/make  -f CMakeFiles/cmTC_fdb80.dir/build.make CMakeFiles/cmTC_fdb80.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_fdb80.dir/noop_main.c.o
+        /usr/bin/cc  -I/home/d7y/dragonfly-repository-agent-by-xz -mvpclmulqdq -mavx512f -mavx512bw -mavx512dq -DS2N_BIKE_R3_VPCLMUL -o CMakeFiles/cmTC_fdb80.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        cc: error: unrecognized command line option ‘-mvpclmulqdq’; did you mean ‘-mpclmul’?
+        CMakeFiles/cmTC_fdb80.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_fdb80.dir/noop_main.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_fdb80.dir/noop_main.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_fdb80/fast' failed
+        make: *** [cmTC_fdb80/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:222 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "KYBER512R3_AVX2_BMI2_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6eb7f/fast && /usr/bin/make  -f CMakeFiles/cmTC_6eb7f.dir/build.make CMakeFiles/cmTC_6eb7f.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_6eb7f.dir/noop_main.c.o
+        /usr/bin/cc   -mavx2 -mavx -mbmi2 -o CMakeFiles/cmTC_6eb7f.dir/noop_main.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/noop_main.c
+        Linking C executable cmTC_6eb7f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eb7f.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_6eb7f.dir/noop_main.c.o -o cmTC_6eb7f 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:242 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "S2N_HAVE_EXECINFO"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c6f33/fast && /usr/bin/make  -f CMakeFiles/cmTC_c6f33.dir/build.make CMakeFiles/cmTC_c6f33.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_c6f33.dir/execinfo.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_c6f33.dir/execinfo.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/execinfo.c
+        Linking C executable cmTC_c6f33
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6f33.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_c6f33.dir/execinfo.c.o -o cmTC_c6f33 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:249 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "S2N_CPUID_AVAILABLE"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_23db8/fast && /usr/bin/make  -f CMakeFiles/cmTC_23db8.dir/build.make CMakeFiles/cmTC_23db8.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_23db8.dir/cpuid.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_23db8.dir/cpuid.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/cpuid.c
+        Linking C executable cmTC_23db8
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23db8.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_23db8.dir/cpuid.c.o -o cmTC_23db8 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:256 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "S2N_FEATURES_AVAILABLE"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_435cc/fast && /usr/bin/make  -f CMakeFiles/cmTC_435cc.dir/build.make CMakeFiles/cmTC_435cc.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_435cc.dir/features.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_435cc.dir/features.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/features.c
+        Linking C executable cmTC_435cc
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_435cc.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_435cc.dir/features.c.o -o cmTC_435cc 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:263 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "FALL_THROUGH_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_622f2/fast && /usr/bin/make  -f CMakeFiles/cmTC_622f2.dir/build.make CMakeFiles/cmTC_622f2.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_622f2.dir/fallthrough.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_622f2.dir/fallthrough.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/fallthrough.c
+        Linking C executable cmTC_622f2
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_622f2.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_622f2.dir/fallthrough.c.o -o cmTC_622f2 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:271 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "__RESTRICT__SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bbf20/fast && /usr/bin/make  -f CMakeFiles/cmTC_bbf20.dir/build.make CMakeFiles/cmTC_bbf20.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_bbf20.dir/__restrict__.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_bbf20.dir/__restrict__.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/__restrict__.c
+        Linking C executable cmTC_bbf20
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbf20.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_bbf20.dir/__restrict__.c.o -o cmTC_bbf20 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:279 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "MADVISE_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7d88a/fast && /usr/bin/make  -f CMakeFiles/cmTC_7d88a.dir/build.make CMakeFiles/cmTC_7d88a.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_7d88a.dir/madvise.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_7d88a.dir/madvise.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/madvise.c
+        Linking C executable cmTC_7d88a
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d88a.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_7d88a.dir/madvise.c.o -o cmTC_7d88a 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:287 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "MINHERIT_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_08d5a/fast && /usr/bin/make  -f CMakeFiles/cmTC_08d5a.dir/build.make CMakeFiles/cmTC_08d5a.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_08d5a.dir/minherit.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_08d5a.dir/minherit.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/minherit.c
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/minherit.c: In function ‘main’:
+        /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/minherit.c:20:5: error: implicit declaration of function ‘minherit’; did you mean ‘mincore’? [-Werror=implicit-function-declaration]
+             minherit(NULL, 0, 0);
+             ^~~~~~~~
+             mincore
+        cc1: all warnings being treated as errors
+        CMakeFiles/cmTC_08d5a.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_08d5a.dir/minherit.c.o' failed
+        make[1]: *** [CMakeFiles/cmTC_08d5a.dir/minherit.c.o] Error 1
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Makefile:127: recipe for target 'cmTC_08d5a/fast' failed
+        make: *** [cmTC_08d5a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:295 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake"
+    buildResult:
+      variable: "CLONE_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b747f/fast && /usr/bin/make  -f CMakeFiles/cmTC_b747f.dir/build.make CMakeFiles/cmTC_b747f.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_b747f.dir/clone.c.o
+        /usr/bin/cc   -Werror -o CMakeFiles/cmTC_b747f.dir/clone.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/clone.c
+        Linking C executable cmTC_b747f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b747f.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_b747f.dir/clone.c.o -o cmTC_b747f 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:491 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/cmake/modules"
+    buildResult:
+      variable: "LIBCRYPTO_SUPPORTS_EVP_MD5_SHA1_HASH"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7403c/fast && /usr/bin/make  -f CMakeFiles/cmTC_7403c.dir/build.make CMakeFiles/cmTC_7403c.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_7403c.dir/evp_md5_sha1.c.o
+        /usr/bin/cc   -pthread -o CMakeFiles/cmTC_7403c.dir/evp_md5_sha1.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/evp_md5_sha1.c
+        Linking C executable cmTC_7403c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7403c.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_7403c.dir/evp_md5_sha1.c.o -o cmTC_7403c  /usr/lib/x86_64-linux-gnu/libcrypto.so -ldl -lrt -pthread 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/CMakeLists.txt:502 (try_compile)"
+    directories:
+      source: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+      binary: "/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/cmake;/lib/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/aws-c-common/cmake;/home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/cmake/modules"
+    buildResult:
+      variable: "LIBCRYPTO_SUPPORTS_EVP_MD_CTX_SET_PKEY_CTX"
+      cached: true
+      stdout: |
+        Change Dir: /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99629/fast && /usr/bin/make  -f CMakeFiles/cmTC_99629.dir/build.make CMakeFiles/cmTC_99629.dir/build
+        make[1]: Entering directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_99629.dir/evp_md_ctx_set_pkey_ctx.c.o
+        /usr/bin/cc   -pthread -o CMakeFiles/cmTC_99629.dir/evp_md_ctx_set_pkey_ctx.c.o -c /home/d7y/dragonfly-repository-agent-by-xz/build/_deps/aws-core-src/crt/aws-crt-cpp/crt/s2n/tests/features/evp_md_ctx_set_pkey_ctx.c
+        Linking C executable cmTC_99629
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99629.dir/link.txt --verbose=1
+        /usr/bin/cc -rdynamic CMakeFiles/cmTC_99629.dir/evp_md_ctx_set_pkey_ctx.c.o -o cmTC_99629  /usr/lib/x86_64-linux-gnu/libcrypto.so -ldl -lrt -pthread 
+        make[1]: Leaving directory '/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...

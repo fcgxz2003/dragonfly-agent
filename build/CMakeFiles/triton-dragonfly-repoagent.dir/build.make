@@ -93,9 +93,26 @@ triton__dragonfly__repoagent_EXTERNAL_OBJECTS =
 libtritonrepoagent_dragonfly.so: CMakeFiles/triton-dragonfly-repoagent.dir/src/dragonfly.cc.o
 libtritonrepoagent_dragonfly.so: CMakeFiles/triton-dragonfly-repoagent.dir/build.make
 libtritonrepoagent_dragonfly.so: _deps/repo-core-build/libtritonserver.so
+libtritonrepoagent_dragonfly.so: _deps/aws-core-build/aws-cpp-sdk-s3/libaws-cpp-sdk-s3.so
 libtritonrepoagent_dragonfly.so: /usr/lib/x86_64-linux-gnu/libz.so
 libtritonrepoagent_dragonfly.so: /usr/lib/x86_64-linux-gnu/libssl.so
 libtritonrepoagent_dragonfly.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
+libtritonrepoagent_dragonfly.so: _deps/aws-core-build/aws-cpp-sdk-core/libaws-cpp-sdk-core.so
+libtritonrepoagent_dragonfly.so: _deps/aws-core-build/crt/aws-crt-cpp/libaws-crt-cpp.a
+libtritonrepoagent_dragonfly.so: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-mqtt/libaws-c-mqtt.a
+libtritonrepoagent_dragonfly.so: lib/libaws-c-event-stream.a
+libtritonrepoagent_dragonfly.so: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-s3/libaws-c-s3.a
+libtritonrepoagent_dragonfly.so: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-auth/libaws-c-auth.a
+libtritonrepoagent_dragonfly.so: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-http/libaws-c-http.a
+libtritonrepoagent_dragonfly.so: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-io/libaws-c-io.a
+libtritonrepoagent_dragonfly.so: lib/libs2n.a
+libtritonrepoagent_dragonfly.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
+libtritonrepoagent_dragonfly.so: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-compression/libaws-c-compression.a
+libtritonrepoagent_dragonfly.so: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-cal/libaws-c-cal.a
+libtritonrepoagent_dragonfly.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
+libtritonrepoagent_dragonfly.so: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-sdkutils/libaws-c-sdkutils.a
+libtritonrepoagent_dragonfly.so: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-checksums/libaws-checksums.a
+libtritonrepoagent_dragonfly.so: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-common/libaws-c-common.a
 libtritonrepoagent_dragonfly.so: libtritonrepoagent_dragonfly.ldscript
 libtritonrepoagent_dragonfly.so: CMakeFiles/triton-dragonfly-repoagent.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libtritonrepoagent_dragonfly.so"

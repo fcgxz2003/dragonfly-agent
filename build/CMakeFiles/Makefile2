@@ -6646,6 +6646,21 @@ _deps/repo-core-build/clean: _deps/repo-core-build/CMakeFiles/triton-core-server
 
 # All Build rule for target.
 CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/repo-core-build/CMakeFiles/triton-core-serverstub.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/crt/aws-crt-cpp/CMakeFiles/aws-crt-cpp.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-common/CMakeFiles/aws-c-common.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/crt/aws-crt-cpp/crt/s2n/CMakeFiles/s2n.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-sdkutils/CMakeFiles/aws-c-sdkutils.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-io/CMakeFiles/aws-c-io.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-cal/CMakeFiles/aws-c-cal.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-compression/CMakeFiles/aws-c-compression.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-http/CMakeFiles/aws-c-http.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-auth/CMakeFiles/aws-c-auth.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-mqtt/CMakeFiles/aws-c-mqtt.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-checksums/CMakeFiles/aws-checksums.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-event-stream/CMakeFiles/aws-c-event-stream.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/crt/aws-crt-cpp/crt/aws-c-s3/CMakeFiles/aws-c-s3.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/aws-cpp-sdk-s3/CMakeFiles/aws-cpp-sdk-s3.dir/all
+CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/aws-core-build/aws-cpp-sdk-core/CMakeFiles/aws-cpp-sdk-core.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/triton-dragonfly-repoagent.dir/build.make CMakeFiles/triton-dragonfly-repoagent.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/triton-dragonfly-repoagent.dir/build.make CMakeFiles/triton-dragonfly-repoagent.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles --progress-num= "Built target triton-dragonfly-repoagent"
@@ -6653,7 +6668,7 @@ CMakeFiles/triton-dragonfly-repoagent.dir/all: _deps/repo-core-build/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 CMakeFiles/triton-dragonfly-repoagent.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/triton-dragonfly-repoagent.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/d7y/dragonfly-repository-agent-by-xz/build/CMakeFiles 0
 .PHONY : CMakeFiles/triton-dragonfly-repoagent.dir/rule

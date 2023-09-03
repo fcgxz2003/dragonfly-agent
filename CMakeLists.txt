@@ -26,6 +26,7 @@ project(tritondragonflyrepoagent LANGUAGES C CXX)
 #
 set(TRITON_COMMON_REPO_TAG "main" CACHE STRING "Tag for triton-inference-server/common repo")
 set(TRITON_CORE_REPO_TAG "main" CACHE STRING "Tag for triton-inference-server/core repo")
+
 if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Release)
 endif()
@@ -50,32 +51,18 @@ FetchContent_Declare(
   GIT_TAG ${TRITON_CORE_REPO_TAG}
   GIT_SHALLOW ON
 )
-# FetchContent_Declare(
-#   http-lib
-#   GIT_REPOSITORY https://github.com/yhirose/cpp-httplib.git
-#   GIT_TAG ${AWS_CORE_REPO_TAG}
-#   GIT_SHALLOW ON
-# )
-# FetchContent_Declare(
-#   repo-third-party
-#   GIT_REPOSITORY https://github.com/triton-inference-server/third_party.git
-#   GIT_TAG ${TRITON_THIRD_PARTY_REPO_TAG}
-#   GIT_SHALLOW ON
-# )
-# FetchContent_Declare(
-#   aws-core
-#   GIT_REPOSITORY https://github.com/aws/aws-sdk-cpp.git
-#   GIT_TAG ${AWS_CORE_REPO_TAG}
-#   GIT_SHALLOW ON
-# )
-# FetchContent_MakeAvailable(repo-common repo-core repo-third-party http-lib aws-core)
+FetchContent_Declare(
+  http-lib
+  GIT_REPOSITORY https://github.com/yhirose/cpp-httplib.git
+  GIT_SHALLOW ON
+)
+FetchContent_Declare(
+  aws-core
+  GIT_REPOSITORY https://github.com/aws/aws-sdk-cpp.git
+  GIT_SHALLOW ON
+)
 
-FetchContent_MakeAvailable(repo-common repo-core)
-
-# set(TRITON_DEPENDS ${TRITON_DEPENDS} aws-sdk-cpp)
-# # Add where to find all S3 dependencies to CMAKE_PREFIX_PATH
-# set(CMAKE_PREFIX_PATH ${TRITON_THIRD_PARTY_INSTALL_PREFIX}/aws-sdk-cpp/lib/cmake
-#   ${TRITON_THIRD_PARTY_INSTALL_PREFIX}/aws-sdk-cpp/lib)
+FetchContent_MakeAvailable(repo-common repo-core http-lib aws-core)
 
 #
 # Shared library implementing the Triton Backend API
@@ -116,7 +103,11 @@ target_link_libraries(
     triton-core-repoagentapi   # from repo-core
     triton-core-serverstub  # from repo-core
     triton-common-json  # from repo-common
-    # aws-cpp-sdk-s3 
+  PRIVATE
+    httplib::httplib
+    # aws-cpp-sdk-all
+    aws-cpp-sdk-core
+    aws-cpp-sdk-s3
 )
 
 set_target_properties(
@@ -176,27 +167,3 @@ export(
 )
 
 export(PACKAGE TritonDragonflyRepoAgent)
-
-# include(ExternalProject)
-# if(NOT TRITON_THIRD_PARTY_SRC_INSTALL_PREFIX)
-#   message(STATUS "TRITON_THIRD_PARTY_SRC_INSTALL_PREFIX not set")
-#   set(INSTALL_SRC_DEST_ARG "")
-# else()
-#   set(INSTALL_SRC_DEST_ARG --dest ${TRITON_THIRD_PARTY_SRC_INSTALL_PREFIX})
-# endif()
-
-# ExternalProject_Add(aws-sdk-cpp
-#   PREFIX aws-sdk-cpp
-#   GIT_REPOSITORY "https://github.com/aws/aws-sdk-cpp.git"
-#   GIT_TAG "1.11.60"
-#   SOURCE_DIR "${CMAKE_CURRENT_BINARY_DIR}/aws-sdk-cpp/src/aws-sdk-cpp"
-#   EXCLUDE_FROM_ALL ON
-#   CMAKE_CACHE_ARGS
-#     -DBUILD_ONLY:STRING=s3
-#     -DBUILD_SHARED_LIBS:BOOL=OFF
-#     -DMINIMIZE_SIZE:BOOL=ON
-#     -DENABLE_TESTING:BOOL=OFF
-#     -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=ON
-#     -DCMAKE_INSTALL_PREFIX:PATH=${TRITON_THIRD_PARTY_INSTALL_PREFIX}/aws-sdk-cpp
-#   PATCH_COMMAND python3 ${CMAKE_CURRENT_SOURCE_DIR}/tools/install_src.py --src <SOURCE_DIR> ${INSTALL_SRC_DEST_ARG}
-# )
